@@ -1,0 +1,36 @@
+.icon-mail {
+            font-size: 4rem;
+            text-align: center;
+            margin-bottom: 1rem;
+            animation: bounce 1s infinite alternate;
+        }
+
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to   { transform: translateY(-10px); }
+        }
+
+        .btn-resend {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border: none;
+            border-radius: 10px;
+            padding: 0.75rem;
+            font-weight: 600;
+            font-size: 1rem;
+            width: 100%;
+            color: white;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .btn-resend:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .alert-success {
+            border-radius: 10px;
+            font-size: 0.9rem;
+            border: none;
+            background: #f0fff4;
+            color: #27ae60;
+        }
